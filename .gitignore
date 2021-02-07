@@ -1,0 +1,10 @@
+.env
+app.env
+.phpunit.result.cache
+build/*
+vendor/
+src/Command/*
+!src/Command/.gitkeep
+.idea
+.php_cs.cache
+composer.lock

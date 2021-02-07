@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  composer:
+    image: prooph/composer:7.4
+    volumes:
+      - .:/app

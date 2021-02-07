@@ -1,0 +1,33 @@
+{
+    "name": "event-engine/php-iio-cody-tutorial",
+    "description": "PHP tutorial for InspectIO Cody",
+    "type": "tutorial",
+    "authors": [
+        {
+            "name": "Alexander Miertsch",
+            "email": "contact@prooph.de",
+            "homepage": "http://www.prooph.de"
+        },
+        {
+            "name": "Sandro Keil",
+            "email": "contact@prooph.de",
+            "homepage": "http://prooph-software.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cody\\Tutorial\\": "src/",
+            "Cody\\Exercises\\": "exercises/"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "exercise1": "vendor/bin/phpunit --testdox --filter Exercise1",
+        "exercise2": "vendor/bin/phpunit --testdox --filter Exercise2"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
