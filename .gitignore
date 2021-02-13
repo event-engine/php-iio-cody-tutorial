@@ -5,6 +5,8 @@ build/*
 vendor/
 src/Command/*
 !src/Command/.gitkeep
+src/Aggregate/*
+!src/Aggregate/.gitkeep
 .idea
 .php_cs.cache
 composer.lock

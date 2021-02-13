@@ -26,7 +26,8 @@
     },
     "scripts": {
         "exercise1": "vendor/bin/phpunit --testdox --filter Exercise1",
-        "exercise2": "vendor/bin/phpunit --testdox --filter Exercise2"
+        "exercise2": "vendor/bin/phpunit --testdox --filter Exercise2",
+        "exercise3": "vendor/bin/phpunit --testdox --filter Exercise3"
     },
     "license": "MIT",
     "minimum-stability": "stable"
