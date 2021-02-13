@@ -20,7 +20,7 @@ final class Exercise3 extends TestCase
         $this->assertTrue(class_exists(Building::class), 'Cannot find a Building aggregate class');
         $buildingRef = new ReflectionClass(Building::class);
 
-        $this->assertTrue($buildingRef->hasMethod('addBuilding'), 'Building aggregate does not have an addBuilding method');
+        $this->assertTrue($buildingRef->hasMethod('addBuilding'), 'Building aggregate could be found, but addBuilding method is missing');
 
         $addBuildingMethod = $buildingRef->getMethod('addBuilding');
 
