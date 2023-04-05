@@ -2,6 +2,6 @@ version: '2'
 
 services:
   composer:
-    image: prooph/composer:7.4
+    image: prooph/composer:8.0
     volumes:
       - .:/app
